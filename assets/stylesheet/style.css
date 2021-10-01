@@ -155,7 +155,7 @@ h3{
 /* team */
 .team{
     background-color: var(--secendory);
-    height: 70vh;
+    height: 75vh;
     padding: 35px 0;
     display: flex;
     flex-wrap: wrap;

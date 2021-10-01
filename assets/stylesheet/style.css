@@ -224,7 +224,7 @@ h3{
 }
 /* service */
 .service{
-    height: 65vh;
+    height: 75vh;
     margin: 30px 0;
     text-align: center;
 }
@@ -251,7 +251,8 @@ h3{
 }
 /* cases */
 .cases{
-    height: 60vh;
+    height: 70vh;
+    padding-top: 50px;
 }
 .cases h4{
     font-size: 26px;
@@ -287,7 +288,7 @@ h3{
 }
 /* News */
 .news{
-    height: 80vh;
+    height: 90vh;
 }
 .news-body p{
     color: var(--contrast);

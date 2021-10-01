@@ -78,6 +78,9 @@ body{
 .around{
     justify-content: space-around;
 }
+.stretch{
+    align-items: stretch;
+}
 .social a{
     text-decoration: none;
     color:var(--bg);
@@ -133,6 +136,7 @@ h3{
     text-align: center;
     font-size: 42px;
     font-weight: 700;
+    padding: 10px 0;
 }
 .btn{
     padding: 8px;
@@ -152,6 +156,7 @@ h3{
 .team{
     background-color: var(--secendory);
     height: 70vh;
+    padding: 35px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -194,17 +199,21 @@ h3{
     display: flex;
     flex-wrap: wrap;
     height: 75vh;
+    flex: end;
 }
 .conference-img{
-    width: 38%;
+    width: 40%;
+    margin-left: 60px;
 }
 .trans-box{
-    width: 30%;
+    width: 100%;
     width: 400px;
-    padding: 25px;
+    padding:0  25px ;
+    margin-right: 200px;
     position: relative;
-    justify-content:baseline;
-    background:linear-gradient(rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.795)center center);
+    left: -400;   
+    background:rgba(255, 255, 255, 0.795);
+    
 }
 .trans-box h4{
     font-size: 26px;
@@ -258,12 +267,13 @@ h3{
     text-align: center;
     justify-content: center;
 }
-.testimonial .star{
+.testimonial .star i{
     color: goldenrod;
-    width: 120px;
     text-align: center;
-    font-size: 16px;
+    padding: 0 5px;
+    font-size: 18px;
 }
+
 .credits{
     color: rgb(22, 32, 90);
     padding: 10px 0;
@@ -327,20 +337,18 @@ footer{
     justify-content: stretch;
 }
 .box-width{
-    padding: 25px 0;
+    padding: 45px 0;
     align-items: baseline;
 }
-/* footer .artical {
-    width: 350px;
-} */
 footer a {
     text-decoration: none;
     line-height: 2;
     color: var(--sub-text);
     font-size: 18px;
 }
-footer .footer-nav-icons i{
-    font-size: 32px;
+.footer-nav-icons i{
+    font-size: 28px;
+    padding-right: 5px;
 }
 footer .art{
     line-height: 1;  
